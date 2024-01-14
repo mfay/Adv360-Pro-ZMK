@@ -4,6 +4,8 @@
 
 There is a GUI for editing the keymap. It is available at https://kinesiscorporation.github.io/Adv360-Pro-GUI
 
+There is [ZMK Firmware](https://zmk.dev/docs/behaviors/layers) documentation.
+
 ## Building the Firmware with GitHub Actions
 
 ### Setup

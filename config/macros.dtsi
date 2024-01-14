@@ -8,7 +8,7 @@ macro_vim_paste_imode: macro_vim_paste_imode{
 compatible = "zmk,behavior-macro";
 label = "macro_vim_paste_imode";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp R>, <&kp PLUS>, <&kp P>;
+bindings = <&macro_press &kp LCTRL>, <&macro_tap &kp R>, <&macro_release &kp LCTRL>, <&macro_tap &kp KP_PLUS>;
 };
 macro_vim_copy_word: macro_vim_copy_word{
 compatible = "zmk,behavior-macro";
