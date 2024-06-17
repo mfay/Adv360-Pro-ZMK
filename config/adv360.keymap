@@ -41,7 +41,7 @@
         default_layer {
             bindings = <
   &kp EQUAL    &kp N1     &kp N2    &kp N3     &kp N4  &kp N5                  &tog 1                                                                              &mo 3  &kp N6    &kp N7     &kp N8   &kp N9    &kp N0   &kp MINUS
-    &kp TAB     &kp Q      &kp W     &kp E      &kp R   &kp T            &kp CAPSLOCK                                                                              &sl 2   &kp Y     &kp U      &kp I    &kp O     &kp P    &kp BSLH
+    &kp TAB     &kp Q      &kp W     &kp E      &kp R   &kp T               &kp LCTRL                                                                              &sl 2   &kp Y     &kp U      &kp I    &kp O     &kp P    &kp BSLH
     &kp ESC     &kp A      &kp S     &kp D      &kp F   &kp G            &kp LEFT_ALT  &kp HOME       &kp END                       &kp LGUI  &kp PRINTSCREEN    &kp END   &kp H     &kp J      &kp K    &kp L  &kp SEMI     &kp SQT
  &kp LSHIFT     &kp Z      &kp X     &kp C      &kp V   &kp B                                    &kp LEFT_ALT                  &kp RIGHT_ALT                               &kp N     &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
       &mo 2  &kp CAPS  &kp GRAVE  &kp LEFT  &kp RIGHT                        &kp BSPC   &kp DEL     &kp LCTRL                      &kp RCTRL        &kp ENTER  &kp SPACE          &kp LBKT   &kp RBKT   &kp UP  &kp DOWN       &mo 2
@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
-     &kp F1              &kp F2                  &kp F3                &kp F4                 &kp F5  &kp F6            &tog 1                                                            &mo 3      &kp F7             &kp F8           &kp F9     &kp F10  &kp F11     &kp F12
-     &trans              &trans                  &trans                &trans                 &trans  &trans             &none                                                            &none      &trans             &trans           &trans      &trans   &trans      &trans
-     &trans  &macro_vim_paste_n  &macro_vim_paste_imode  &macro_vim_copy_word  &macro_macro_vim_copy  &trans             &none  &trans  &trans                  &trans       &trans       &none  &kp C_PREV  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT   &trans      &trans
- &caps_word              &trans                  &trans                &trans                 &trans  &trans                            &trans                  &trans                               &trans             &trans           &trans      &trans   &trans  &caps_word
-     &trans              &trans                  &trans                &trans                 &trans                    &trans  &trans  &trans                  &trans  &kp C_PAUSE  &kp C_MUTE                         &trans           &trans      &trans   &trans      &trans
+     &kp F1              &kp F2                  &kp F3                &kp F4                 &kp F5  &kp F6              &tog 1                                                            &mo 3      &kp F7             &kp F8           &kp F9     &kp F10  &kp F11     &kp F12
+     &trans              &trans                  &trans                &trans                 &trans  &trans               &none                                                            &none      &trans             &trans           &trans      &trans   &trans      &trans
+     &trans  &macro_vim_paste_n  &macro_vim_paste_imode  &macro_vim_copy_word  &macro_macro_vim_copy  &trans            &kp LWIN  &trans  &trans                  &trans       &trans       &none  &kp C_PREV  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT   &trans      &trans
+ &caps_word              &trans                  &trans                &trans                 &trans  &trans                              &trans                  &trans                               &trans             &trans           &trans      &trans   &trans  &caps_word
+     &trans              &trans                  &trans                &trans                 &trans                      &trans  &trans  &trans                  &trans  &kp C_PAUSE  &kp C_MUTE                         &trans           &trans      &trans   &trans      &trans
             >;
         };
 
